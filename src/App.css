@@ -1,8 +1,57 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  height: 100vh;
+  padding: 30px;
 }
 
-.App-logo {
+.todo-list {
+  border-radius: 4px;
+  background-color: #282c34;
+}
+
+.todo {
+  align-items: center;
+  background-color: gray;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.new-todo {
+  align-items: center;
+  height: 60px;
+  background-color: rgb(46, 85, 70);
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.new-todo-item {
+  align-items: center;
+  height: 50px;
+  width: 400px;
+  background-color: rgb(181, 187, 185);
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type='button'] {
+  margin-left: 6px;
+  margin-right: 6px;
+  background-color: #282c34;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+h3 {
+  margin-left: 6px;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +84,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
